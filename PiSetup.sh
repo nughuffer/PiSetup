@@ -15,6 +15,6 @@ echo 'alias nano="sudo nano"
      'alias reboot="sudo reboot"
      'alias poweroff="sudo poweroff" >> /home/pi/.zshrc &&
 
-chsh -s /bin/zsh
+chsh -s /bin/zsh &&
 zsh && 
 update
