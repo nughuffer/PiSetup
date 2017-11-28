@@ -1,6 +1,6 @@
 #!/bin/bash  
 
-sudo apt-get install -y zsh curl git
+sudo apt-get install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" && 
 echo 'alias nano="sudo nano"
      alias update="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoremove && sudo r$
@@ -16,5 +16,6 @@ echo 'alias nano="sudo nano"
      alias poweroff="sudo poweroff"' >> /home/pi/.zshrc &&
 
 chsh -s /bin/zsh &&
-zsh && 
-update
+zsh
+
+echo "Done!"
