@@ -1,7 +1,11 @@
 #!/bin/bash  
 
 sudo apt-get install -y zsh
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" && 
+
+exit &&
+
 echo 'alias nano="sudo nano"
      alias update="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoremove && sudo r$
      alias aptin="sudo apt-get install -y"
@@ -13,9 +17,10 @@ echo 'alias nano="sudo nano"
      alias restart="sudo systemctl restart"
      alias failed="sudo systemctl --failed"
      alias reboot="sudo reboot"
-     alias poweroff="sudo poweroff"' >> /home/pi/.zshrc &&
+     alias poweroff="sudo poweroff"' >> ~/.zshrc &&
 
 chsh -s /bin/zsh &&
+
 zsh
 
 echo "Done!"
