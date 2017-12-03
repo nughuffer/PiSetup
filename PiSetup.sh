@@ -4,8 +4,6 @@ sudo apt-get install -y zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" && 
 
-exit 
-
 echo 'alias nano="sudo nano"
      alias update="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoremove && sudo r$
      alias aptin="sudo apt-get install -y"
