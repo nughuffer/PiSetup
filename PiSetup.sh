@@ -22,4 +22,4 @@ echo "Type exit to complete setup" &&
 # Change user shell in system
 chsh -s /bin/zsh &&
 
-echo "Done! You may want to reboot if Raspi FW was updated."
+echo "Done! Reboot to apply firmware updates."
