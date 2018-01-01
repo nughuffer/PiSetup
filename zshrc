@@ -38,8 +38,8 @@ source $ZSH/oh-my-zsh.sh
      screenfetch
 
      alias nano="sudo nano"
-     alias update="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade 
-     && sudo apt-get autoremove && sudo rpi-update"
+     alias update="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoremove" 
+     alias fwupdate="sudo rpi-update"
      alias aptin="sudo apt-get install -y"
      alias apts="sudo apt-cache search"
      alias remove="sudo apt-get purge"
