@@ -4,7 +4,6 @@
 sudo apt-get update &&
 sudo apt-get dist-upgrade &&
 sudo apt-get autoremove &&
-sudo rpi-update &&
 # Install ZSH
 sudo apt-get install -y zsh &&
 # Install Screenfetch
