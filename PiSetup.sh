@@ -9,8 +9,6 @@ sudo apt-get install -y zsh &&
 # Install Screenfetch
 git clone https://github.com/kittykatt/screenFetch &&
 sudo cp screenFetch/screenfetch-dev /usr/bin/screenfetch &&
-cd &&
-sudo rm -R screenFetch &&
 # Install Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  &&
 # Delete zsh config file that Oh my zsh installs automatically
