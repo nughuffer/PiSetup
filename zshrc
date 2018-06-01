@@ -48,5 +48,6 @@ source $ZSH/oh-my-zsh.sh
      alias disable="sudo systemctl disable"
      alias restart="sudo systemctl restart"
      alias failed="sudo systemctl --failed"
+     alias stopd="sudo systemctl stop"
      alias reboot="sudo reboot"
      alias poweroff="sudo poweroff"
