@@ -35,7 +35,7 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-     screenfetch
+     neofetch
 
      alias nano="sudo nano"
      alias update="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoremove" 
@@ -51,3 +51,4 @@ source $ZSH/oh-my-zsh.sh
      alias stopd="sudo systemctl stop"
      alias reboot="sudo reboot"
      alias poweroff="sudo poweroff"
+     alias banner="neofetch"
